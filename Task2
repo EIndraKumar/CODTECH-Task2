@@ -15,8 +15,8 @@ CREATE TABLE `CUSTOMERS` (
     `EMAIL` VARCHAR(255) NOT NULL UNIQUE ,
     `JOINDATE` DATE NOT NULL );
 
-INSERT INTO `CUSTOMERS` VALUES ( 1, "BABU", "NAIK", "babunaik07@gmail.com", 2010-07-1 ),
-                          ( 2, "SHANKAR", "GOUD", "shankargoud147@gmail.com", 2009-02-24);
+INSERT INTO `CUSTOMERS` VALUES ( 1, "BABU", "NAIK", "babunaik07@gmail.com", "2010-07-1" ),
+                          ( 2, "SHANKAR", "GOUD", "shankargoud147@gmail.com", "2009-02-24");
     
 CREATE TABLE `RENTALS` (
     `RENTALID` INT PRIMARY KEY ,
